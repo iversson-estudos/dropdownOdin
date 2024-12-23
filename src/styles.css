@@ -127,3 +127,28 @@ table {
   border-spacing: 0;
 }
 /*END OF CSS RESET*/
+
+body {
+  #main {
+    /*WHEN OPEN*/
+    .dropdown {
+      overflow: hidden;
+      #dropdownBtn {
+        height: 64px;
+      }
+      .menu {
+        height: 228;
+      }
+    }
+
+    /*WHEN CLOSED*/
+    .dropdown.closed {
+      #dropdownBtn {
+        height: 64px;
+      }
+      .menu {
+        height: 0;
+      }
+    }
+  }
+}
